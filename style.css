@@ -7,12 +7,20 @@
   Font Weight: 500, 800
   Font Family: [Figtree](https://fonts.google.com/specimen/Figtree)
 */
+body {
+  padding: 2rem;
+  font-family: "Figtree", sans-serif;
+  font-size: 1rem;
+}
 
 main {
   max-width: 75%;
+  max-height: 100%;
   background-color: hsl(47, 88%, 63%);
-  box-shadow: 20px 20px 20px hsl(0, 0%, 42%), -20px 20px 20px hsl(0, 0%, 42%);
+  box-shadow: 20px 20px 40px hsl(0, 0%, 42%), -20px 20px 40px hsl(0, 0%, 42%);
   margin: auto;
+  
+  padding: 8rem 0;
 }
 
 .blog_card {
@@ -25,9 +33,32 @@ main {
   box-shadow: 10px 10px hsl(0, 0%, 7%);
 }
 
+#spiral_art {
+  max-width: 100%;
+}
+
 header {
   background-color: hsl(47, 88%, 63%);
   width: fit-content;
   padding: 0.25rem;
+  font-weight: 500;
 }
 
+.card_title {
+  font-weight: 800;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 800;
+  align-content: center;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
